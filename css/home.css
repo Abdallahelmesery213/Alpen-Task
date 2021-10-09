@@ -1,0 +1,305 @@
+@font-face{
+    font-family: 'PoppSemi';
+    src: url("../fonts/Poppins-SemiBold.ttf")
+}
+@font-face{
+    font-family: 'PoppMed';
+    src: url("../fonts/Poppins-Medium.ttf")
+}
+@font-face{
+    font-family: 'PoppReg';
+    src: url("../fonts/Poppins-Regular.ttf")
+}
+@font-face{
+    font-family: 'PoppBold';
+    src: url("../fonts/Poppins-Bold.ttf")
+}
+body{
+    width: 99.1%;
+    position: relative;
+}
+/* start head */
+.head{
+    /* width: 99.1%; */
+    height: 39px;
+    position: relative;
+}
+.head .row{
+    background-color: #EE1D23;
+}
+.head .getOff{
+    font-family:'PoppSemi';
+    font-size: 13px;
+    background-color: #AD1913;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.head .content{
+    color: #fff;
+    text-transform: capitalize;
+    font-family: 'PoppMed';
+    font-size: 12px;
+    text-align: center;
+    
+}
+/* end head */
+
+/* start navbar */
+.navbar-nav li a{
+    font-family: 'PoppReg';
+    font-size: 13px;
+    font-weight: 600;
+}
+/* end navbar */
+
+/* start Carousel */
+.Carousel h3{
+    font-family: 'PoppBold';
+    font-size: 30px;
+}
+.Carousel p{
+    font-size: 14px;
+    font-family: 'PoppReg';
+    color: #383838;
+}
+.Carousel .btn{
+    background-color: #EE1D23;
+    color: #fff;
+    font-size: 15px;
+    width: 210px;
+}
+.Carousel span {
+    cursor: pointer;
+    border-radius: 50%;
+    display: inline-flex;
+    margin-right: 15px;
+}
+.Carousel .one{
+    width: 10px;
+    height: 10px;
+    background-color: #EE1D23;
+}
+.Carousel .two , .Carousel .three{
+    width: 7px;
+    height: 7px;
+    background-color: #EE1D23;
+    opacity: 0.46;
+}
+.Carousel .balls{
+    margin-top: 190px;
+}
+/* end Carousel */
+
+/* start arrivals */
+.arrivals{
+    background-color: #F8F8F8;
+    padding-bottom: 10px;
+}
+.arrivals h3{
+    font-family: 'PoppMed';
+    font-weight: 600;
+    font-size: 30px;
+    color: #383838;
+    text-align: center;
+    margin-top: 50px;
+    padding: 40px 0;
+}
+.arrivals .arr-cont img{
+    width: 20%;
+    margin-right: 50px;
+}
+.arrivals-imgs{
+    margin-bottom: 20px;
+}
+.meat-par{
+    position: relative;
+}
+.sale{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #EE1D23;
+    color: #fff;
+    padding: 9px;
+    font-size: 9px;
+    right: 14px;
+    top: -99px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.shark-par{
+    position: relative;
+}
+.stock{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #A7A7A7;
+    color: #fff;
+    padding: 9px;
+    font-size: 7px;
+    right: 16px;
+    top: -98px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.alpen-inside p{
+    font-size: 13px;
+}
+.alpen-inside span{
+    font-size: 14px;
+    color: #EE1D23;
+}
+/* end arrivals */
+/* .swiper {
+
+    width: 100%;
+    height: 500px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-button-next {
+      right: 10px !important;
+  }
+  .swiper-button-prev{
+      left: 1px !important;
+  } */
+
+  /* start brands */
+  .brands {
+      margin-top: 50px;
+      margin-bottom: 50px;
+  }
+  .brands h2{
+      font-size: 30px;
+      color: #383838;
+  }
+ 
+  .brands .prag {
+    color: #383838;
+    width: 45%;
+    display: inline-block;
+    margin-top: 12px;
+    margin-bottom: 40px;
+  }
+  .brands img{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+
+  }
+  .brands .bebeto-img , .brands .alpen-img{
+      position: relative;
+      border: 2px solid #EE1D23;
+      padding: 10px;
+      height: 100%;
+  }
+  .brands .btn{
+    position: relative;
+    margin-left: 36%;
+    margin-right: 50%;
+    bottom: 65px;
+    text-align: center;
+    background-color: #fff;
+    width: 30%;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .brands ul li {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: #EE1D23;
+      opacity: 0.45;
+  }
+  .brands ul .activee{
+    opacity: 1 !important;
+  }
+  /* end brands */
+
+  /* start trade */
+  .trade{
+      background-color: #F9F9F9;
+      margin-top: 70px;
+      margin-bottom: 70px;
+  }
+  .trade .col-trade{
+      padding: 50px;
+  }
+  .trade .col-trade p {
+      font-size: 14px;
+      color: #383838;
+      letter-spacing: -0.14;
+  }
+  .trade .col-trade button{
+      background-color: #EE1D23;
+      color: #fff;
+      font-size: 13px;
+      width: 60%;
+      padding: 10px;
+  }
+  .trade .col-img{
+      border: 4px solid #EE1D23;
+      padding: 10px;
+      position: relative;
+  }
+  .trade .col-img img{
+      width: 100%;
+      height: 100%;
+      position: absolute
+  }
+  /* end trade */
+
+  /* start footer */
+  footer p {
+      font-size: 20px;
+      font-weight: 600;
+      width: 70% !important;
+  }
+  footer .active{
+      font-size: 15px;
+      font-weight: 600;
+  }
+  footer ul li {
+      font-size: 14px;
+      margin-top: 8px;
+  }
+  footer .footer p{
+      font-size: 14px;
+  }
+  /* end footer */
